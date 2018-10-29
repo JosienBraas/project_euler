@@ -5,7 +5,7 @@
 # What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
 def testdiv(n):
-    '''Check if a number is evenly divisible by all of the numbers from 1 to 20.''' 
+    '''Check if a number is evenly divisible by all of the numbers from 1 to 20.'''
     if n % 11 == 0:
         if n % 12 == 0:
             if n % 13 == 0:

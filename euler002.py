@@ -13,5 +13,5 @@ while b < 4000001:
 	if b%2 == 0:
 		sum = sum + b
 	a, b = b, a+b
-	
+
 print sum
